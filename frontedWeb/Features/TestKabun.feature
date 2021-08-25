@@ -15,7 +15,7 @@ Feature: Validando Site Kabum
      When clico no botão buscar
      Then será exibido todos os Iphone da lista cadastrados
 
- 
+
 @CT03_AdicionarProdutoDepartamentoNoCarrinho
     Scenario: valida adicionar produto no carrinho
      Given que estou na página de "TODOS OS DEPARTAMENTOS"
