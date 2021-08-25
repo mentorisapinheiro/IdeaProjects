@@ -1,0 +1,13 @@
+Feature: Validar login válido
+
+Valida o acesso válido do sito do Julio de Lima
+ Scenario: Valida login válido
+   Given que estou na página home do site do Julio
+   And acesso o link take it
+   And clico no botão sign in
+   And  informo os dados de acesso <usuerio> e <senha>
+   |usuario| senha|
+   |isabele| 12334|
+   When clico no botão SIGN IN
+   Then será exibido o comprimento "Hi, Isabele".
+

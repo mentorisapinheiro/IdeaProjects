@@ -1,0 +1,10 @@
+# language: pt
+
+  Funcionalidade: Validar pesquisa no Google
+    Como o sistema irá reagir quando realizar a pesquisa no google
+
+  Cenário: Pesquisar um site de Dorama
+    Dado que estou na página principal do google
+    E realizo a pesquisa pelo dorama "Vincenzo"
+    Quando clico no botão pesquisar
+    Então deve ser exibido as pesquisas relacionada ao "Vincenzo".
